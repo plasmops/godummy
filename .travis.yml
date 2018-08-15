@@ -11,6 +11,7 @@ deploy:
   api_key:
     secure: jEDGaiEkHEp48qoTF/LeonrS/YgBllIFcQo+6pIf1ECmdP14vrTMNziKJBbAC04cS4bHMXUCIjif70Xhy+2eJdS9qmPGhqh2KO5Mkuo3+8QJh4IbMmpMwrT7TQ5wJ6ZmTh7IuPfpaxqKKN58rlW6YoNOktW8XvSnpqhZu51e+Jhn2AA2AZrRrbQO8NxsWF4LlnC4cIrY7MzWWd5wZ3QOBVXiUphKYarQEHRXurXi7ddrxNaobBNS/Il0Kll5raiaAnd/wA4k/GwM8uVyvYhFtd3JIQVU0WGmKnis2CclYgXYeH+fziJqp0FD+Cjv3mYYlssmag7FFgMvXKtCFKgQJpF8cbUR6fKD2WXmPquOsN1ECesbC35X/DgjYyjzJf1AMTlPR2dVR7gMVdW6h+TWg3YPRsBxziMPFK5uXIa09mLdWF5q5Thi1a7u7Xhn28+bg0KLGxR5HK9MENyJXGR4kIHfo7r8J9n8xtG8VZHtLjAbxIqeTPTrWXwMfUMSgXyb7QtnRHcXsJ1B+AB+OR8IK93Lh9soWBKj5BMS+VMpCWh0tyJPVJ7g/f/6Zvf1uk2gxHcZjRYTWya0M28i78qFvLgqS3G3lhNpIVLCjecezLKu6N9y/Ojz1Qb524z7of9lx75QYjRTItskmGtMCHkggYZMYFayrHDc1K+fZ88aTCw=
   file: dummy
+  skip_cleanup: true
   on:
     repo: plasmops/godummy
     tags: true
